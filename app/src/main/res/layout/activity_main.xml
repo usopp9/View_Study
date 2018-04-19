@@ -21,5 +21,51 @@
         android:layout_height="wrap_content"
         android:text="@string/main_title02"
         android:onClick="mOnClick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Layout"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
 
+    <Button
+        android:id="@+id/btmMain03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title03"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+
+    <Button
+        android:id="@+id/btmMain04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title04"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+    <Button
+    android:id="@+id/btmMain05"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="FrameLayout"
+    android:textAllCaps="false"
+    android:onClick="mOnClick"/>
+
+    <Button
+    android:id="@+id/btmMain06"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TabHost"
+    android:textAllCaps="false"
+    android:onClick="mOnClick"/>
+
+    <Button
+        android:id="@+id/btmMain07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table,GridLayout"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
 </LinearLayout>

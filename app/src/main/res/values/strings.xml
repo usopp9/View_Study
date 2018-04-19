@@ -6,4 +6,6 @@
     <string name="main_title">뷰 기초 속성활용</string>
     <string name="main_title02">TextView 활용</string>
     <string name="long_text">으라차차 와이키키는 영화감독을 꿈꾸는 불운의 아이콘 강동구(김정현), 똘기 충만 생계형 배우 이준기(이이경), 반백수 프리랜서 작가 봉두식(손승원)이 망할 위기에 처한 게스트하우스 와이키키에서 펼치는 청춘 드라마를 다룬 작품이다. 정인선은 극중 허당기 가득하지만 사랑스러운 한윤아 캐릭터를 맡아 열연했다. 한윤아는 딸 솔이를 홀로 키우며 살아가는 미혼모다. 생활고에 지쳐 딸을 와이키키에 버리기도 했지만, 바로 딸을 찾으러 왔다 와이키키에 머물게 된다. 그리고 파티셰라는 새로운 꿈을 찾아 고군분투한다. 그 과정에서 철 없지만 순수하고 따뜻한 마음을 가진 강동구와의 사랑을 키워간다. 정인선은 거침없는 푼수 연기부터 허당 코믹 연기, 모성애 연기까지. 폭 넓은 연기 스펙트럼으로 여주인공으로서의 롤을 톡톡히 해냈다</string>
+    <string name="main_title03">LinearLayout</string>
+    <string name="main_title04">RelativeLayout</string>
 </resources>

@@ -29,7 +29,26 @@ public class MainActivity extends AppCompatActivity {
             intent.setClass(this, TextViewExActivity.class);
             intent.putExtra("title",((Button)view).getText());
         }
-
+        if(view.getId()==R.id.btmMain03){
+            intent.setClass(this, LinearLayoutExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain04){
+            intent.setClass(this, RelativeLayoutExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain05){
+            intent.setClass(this, FrameLayoutExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain06){
+            intent.setClass(this, TabHostExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain07){
+            intent.setClass(this, TGridLayoutExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
         startActivity(intent);
     }
 }
