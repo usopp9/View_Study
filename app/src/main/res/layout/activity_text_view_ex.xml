@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextViewExActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가나다라 http://www.naver.com 마바사 dd@naver.com 아자차카타 1234-5678"
+        android:autoLink="web|email|phone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_text"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:maxLines="3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="전화번호 입력"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/chbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is unChecked"
+        android:layout_marginTop="16dp"
+        android:onClick="mChecked"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="취미"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안드로이드"/>
+
+        <RadioButton
+            android:id="@+id/radio02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자바"/>
+
+        <RadioButton
+            android:id="@+id/radio03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JSP"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:layout_marginTop="20dp"
+        android:onClick="mOnClickTextView"/>
+</LinearLayout>
