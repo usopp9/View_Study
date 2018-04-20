@@ -2,6 +2,7 @@ package kr.or.dgit.it.view_study;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -47,6 +48,18 @@ public class MainActivity extends AppCompatActivity {
         }
         if(view.getId()==R.id.btmMain07){
             intent.setClass(this, TGridLayoutExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain08){
+            intent.setClass(this, VibratorAlarmActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain09){
+            intent.setClass(this, DialogExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain10){
+            intent.setClass(this, WorkExActivity.class);
             intent.putExtra("title",((Button)view).getText());
         }
         startActivity(intent);

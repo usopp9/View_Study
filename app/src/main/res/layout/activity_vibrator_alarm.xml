@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VibratorAlarmActivity">
+
+    <Button
+        android:id="@+id/btnv01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibration 01"
+        android:onClick="onclickAlarm"/>
+    <Button
+        android:id="@+id/btnv02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibration 02"
+        android:onClick="onclickAlarm"/>
+    <Button
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Beep"
+        android:onClick="onclickAlarm"/>
+
+    <Button
+        android:id="@+id/btnc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom sound"
+        android:onClick="onclickAlarm"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="mp3 Play"
+            android:onClick="onclickAlarm"/>
+
+        <Button
+            android:id="@+id/btnms"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="mp3 Stop"
+            android:onClick="onclickAlarm"/>
+
+    </LinearLayout>
+</LinearLayout>
