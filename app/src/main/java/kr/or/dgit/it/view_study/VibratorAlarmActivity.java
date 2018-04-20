@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class VibratorAlarmActivity extends AppCompatActivity {
-
+    MediaPlayer playerme3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class VibratorAlarmActivity extends AppCompatActivity {
         Vibrator vib = (Vibrator)getSystemService(VIBRATOR_SERVICE);
         MediaPlayer player;
 
-        MediaPlayer playerme3 = MediaPlayer.create(this,R.raw.always);
+
         if(view.getId()==R.id.btnv01){
 
             vib.vibrate(1000);
@@ -36,6 +36,7 @@ public class VibratorAlarmActivity extends AppCompatActivity {
             player=MediaPlayer.create(this,R.raw.fallbackring);
             player.start();
         }else if(view.getId()==R.id.btnm){
+            playerme3 = MediaPlayer.create(this,R.raw.always);
             playerme3.start();
         }else if(view.getId()==R.id.btnms){
             playerme3.stop();
