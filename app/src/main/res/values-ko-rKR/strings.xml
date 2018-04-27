@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="note">사느냐 죽느냐 이것이 문제로다</string>
+    <string name="messenger">Messenger에서 SMS를 주고 받아 보세요.</string>
+    <string name="msg_text">모든 대화를 한곳에서 관리하고 스티커와 쳇 해드 기등소 사용해보세요. SMS대화가 Messenger에 별도로 표시되어 휴대폰을 통해서만 이용할 수 있습니다. 표주문자 메시지 요금이 청구됩니다.</string>
+    <string name="msg_ok">확인</string>
+    <string name="msg_setting">설정</string>
+</resources>

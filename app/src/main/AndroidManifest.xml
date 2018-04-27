@@ -27,7 +27,15 @@
         <activity android:name=".TGridLayoutExActivity" />
         <activity android:name=".VibratorAlarmActivity" />
         <activity android:name=".DialogExActivity" />
-        <activity android:name=".WorkExActivity"></activity>
+        <activity android:name=".WorkExActivity" />
+        <activity android:name=".CustomEventExActivity" />
+        <activity
+            android:name=".ResourcesActivity"
+            android:theme="@style/myTheme" />
+        <activity android:name=".ResourcesLanguageActivity" />
+        <activity android:name=".Mission01Activity" />
+        <activity android:name=".Mission02Activity" />
+        <activity android:name=".Mission03Activity"></activity>
     </application>
 
 </manifest>

@@ -12,7 +12,7 @@ import android.view.View;
 public class VibratorAlarmActivity extends AppCompatActivity {
     MediaPlayer playerme3;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {setTitle(getIntent().getStringExtra("title"));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vibrator_alarm);
         setTitle(getIntent().getStringExtra("title"));

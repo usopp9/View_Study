@@ -11,4 +11,10 @@
     <string name="main_title08">진동,효과음 울리기</string>
     <string name="main_title09">다이얼로그</string>
     <string name="title_activity_work_ex">WorkExActivity</string>
+
+    <string name="note">To be, or not to be : that is the question</string>
+    <string name="messenger">Send and receive SMS from Messenger</string>
+    <string name="msg_text">Manage all of your conversations in one place and use stickers and chat heads. SMS conversations ard displayed separately in Messenger and are only available via a mobile phone. Standard text message charges will be charged.</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_setting">Setting</string>
 </resources>

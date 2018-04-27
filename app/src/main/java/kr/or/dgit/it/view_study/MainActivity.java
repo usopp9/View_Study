@@ -62,6 +62,30 @@ public class MainActivity extends AppCompatActivity {
             intent.setClass(this, WorkExActivity.class);
             intent.putExtra("title",((Button)view).getText());
         }
+        if(view.getId()==R.id.btmMain11){
+            intent.setClass(this, CustomEventExActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain12){
+            intent.setClass(this, ResourcesActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain13){
+            intent.setClass(this, ResourcesLanguageActivity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain14){
+            intent.setClass(this, Mission01Activity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain15){
+            intent.setClass(this, Mission02Activity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
+        if(view.getId()==R.id.btmMain16){
+            intent.setClass(this, Mission03Activity.class);
+            intent.putExtra("title",((Button)view).getText());
+        }
         startActivity(intent);
     }
 }
